@@ -1,0 +1,19 @@
+.similarProducts {
+  margin-top: 50px;
+}
+.similarProducts__title {
+  margin-left: 5vw;
+  margin-bottom: 35px;
+  color: #f85555;
+}
+.similarProducts__container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+}

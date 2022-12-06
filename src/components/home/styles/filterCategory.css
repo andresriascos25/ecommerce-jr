@@ -1,0 +1,20 @@
+.filterCategory {
+  margin-bottom: 10px;
+}
+.filterCategory h3 {
+  border-bottom: 2px solid #dcd9d9;
+}
+.filterCategory ul li {
+  margin-top: 17px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 666px) {
+  .filterCategory {
+    width: 250px;
+  }
+  .filterCategory ul li {
+    text-align: center;
+  }
+}

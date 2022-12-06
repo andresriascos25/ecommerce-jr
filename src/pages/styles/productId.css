@@ -1,0 +1,17 @@
+.productId {
+  top: 150px;
+  position: relative;
+}
+.productId__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 30px;
+}
+
+@media (max-width: 860px) {
+  .productId__header {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,23 @@
+.input-search {
+  position: absolute;
+  top: 120px;
+  left: 350px;
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 350px);
+}
+.input-search input {
+  border: 1px solid rgba(0,0,0,.2);
+  padding: 15px;
+  width: 100vw;
+  outline: none;
+  margin: 0 30px;
+}
+
+@media (max-width: 666px) {
+  .input-search {
+    top: 700px;
+    left: 0;
+    width: 100%;
+  }
+}

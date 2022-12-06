@@ -1,0 +1,22 @@
+.orderByPrice__title {
+  border-bottom: 2px solid #dcd9d9;
+}
+.orderByPrice__btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 17px;
+}
+.order__btn {
+  background: #f85555;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media (max-width: 666px) {
+  .orderByPrice {
+    width: 250px;
+  }
+}

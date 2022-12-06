@@ -1,0 +1,38 @@
+.filterPrice__title {
+  border-bottom: 2px solid #dcd9d9;
+}
+.filterPrice__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  gap: 1rem;
+}
+.filterPrice__div input {
+  border: 2px solid #dcd9d9;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 4px 10px;
+  width: 180px;
+  outline: none;
+}
+.filter-price__btn {
+  background: #f85555;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  margin: 15px 0 10px auto;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@media (max-width: 666px) {
+  .filterPrice {
+    width: 250px;
+  }
+  .filter-price__btn {
+    margin: 25px auto 20px auto;
+  }
+}
